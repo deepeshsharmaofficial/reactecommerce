@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react"
+import styled from "styled-components";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
+    return ( 
+        <Wrapper>
+            <h1>Home</h1>
+        </Wrapper>
+    );
 }
 
-export default Home
+const Wrapper = styled.section`
+    background-color: ${({theme}) => theme.colors.bg};
+    height: 100vh;
+`;
+
+export default Home;
