@@ -157,6 +157,11 @@ input, textarea{
     cursor: pointer;
     }
 
+.loader-spinner {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: ${({ theme }) => theme.media.tab}) {
     .container {
     max-width: 130rem;
