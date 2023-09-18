@@ -20,6 +20,7 @@ const initialState = {
     featureProducts: [],
     isSingleProductLoading: false,
     singleProduct: {},
+    API: API
 }
 
 // 2nd Step -> Create Provider
